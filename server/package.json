@@ -1,0 +1,29 @@
+{
+  "name": "monitoring-server",
+  "version": "1.0.0",
+  "description": "Lightweight system monitoring backend optimized for Android/Termux",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "monitoring",
+    "system",
+    "termux",
+    "android",
+    "performance"
+  ],
+  "author": "System Monitor",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "ws": "^8.14.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
