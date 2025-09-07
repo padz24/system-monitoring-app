@@ -27,7 +27,6 @@
   "author": "System Monitor Team",
   "license": "MIT",
   "dependencies": {
-    "@rollup/rollup-android-arm64": "^4.50.0",
     "axios": "^1.11.0",
     "chart.js": "^4.4.0",
     "chartjs-adapter-date-fns": "^3.0.0",
