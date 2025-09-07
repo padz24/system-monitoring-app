@@ -113,6 +113,12 @@ A lightweight, cross-platform system monitoring application optimized for Androi
    unzip system-monitoring-app.zip
    cd system-monitoring-app
    
+   # Install Rollup as an alias to the WASM build (required for Android)
+    npm install --save-dev rollup@npm:@rollup/wasm-node@^4.50.0
+    
+    # Reinstall project dependencies
+    npm install
+   
    # Install dependencies
    npm run install:all
    
